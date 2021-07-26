@@ -1,0 +1,6 @@
+.cover__background {
+  background: center center no-repeat url("../../../images/__background.jpg");
+  background-size: cover;
+  width: 1184px;
+  height: 740px;
+}
