@@ -1,9 +1,31 @@
-.cover__overlay{
-  
+.cover__overlay {
+  background-image: url("../../../images/__background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 740px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: relative;
+}
+
+.cover__overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 .cover__overlay:hover {
-  background: #2A2C2F;
-  opacity: 0.8;
-  transition: .5s;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: all .5s;
 }

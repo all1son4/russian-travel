@@ -1,29 +1,3 @@
 .lead__road {
-  width: 937.09px;
-  height: 262.99px;
   margin: 90.21px 23.64px 261.8px 23.27px;
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  .lead__road {
-    max-width: 883.76px;
-    max-height: 248.02px;
-    margin: 85.07px 22.3px 246.9px 21.95px;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 320px) {
-  .lead__road {
-    max-width: 731.38px;
-    max-height: 205.26px;
-    margin: 70.41px 18.45px 204.33px 18.16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__road {
-    max-width: 304.74px;
-    max-height: 85.53px;
-    margin: 29.34px 7.69px 85.14px 7.57px;
-  }
 }

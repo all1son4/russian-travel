@@ -1,32 +1,11 @@
 .lead {
-  margin: 0 auto;
-  padding: 56px 0 0 0;
-  max-width: calc(1280px - 148px * 2);
+  margin: 0;
+  padding-top: 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .lead:nth-last-child(5) {
   align-items: flex-start;
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  .lead {
-    max-width: calc(1024px - 48px * 2);
-    padding: 48px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 320px) {
-  .lead {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-  }
 }
