@@ -1,5 +1,27 @@
 .page {
-  border: solid 1px red;
   background: #2A2c2F;
-  width: 1280px;
+  font-family: "Inter", "sans-serif", "Arial";
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 100%;
+  }
 }

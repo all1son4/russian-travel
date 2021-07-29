@@ -1,0 +1,22 @@
+.cover {
+  max-width: calc(1280px - 48px * 2);
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .cover {
+    max-width: 768px;
+    max-height: 320px;
+  }
+}
