@@ -6,3 +6,18 @@
   padding-top: 92px;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    grid-row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 64px 0;
+    grid-row-gap: 50px;
+  }
+}

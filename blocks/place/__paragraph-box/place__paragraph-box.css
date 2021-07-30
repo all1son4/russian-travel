@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .place__paragraph-box {
+    padding: 0 16px;
+  }
+}

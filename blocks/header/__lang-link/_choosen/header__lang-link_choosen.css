@@ -9,11 +9,10 @@
   left: 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .header__lang-link_choosen::after {
     height: 2px;
     width: 22px;
-    top: -3px;
-    left: 0px;
+    top: 0;
   }
 }

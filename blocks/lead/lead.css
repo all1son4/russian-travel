@@ -1,11 +1,23 @@
 .lead {
-  margin: 0;
   padding-top: 56px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 .lead:nth-last-child(5) {
   align-items: flex-start;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding: 48px 0 0 0;
+  }
 }

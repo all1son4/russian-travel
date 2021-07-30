@@ -1,5 +1,24 @@
 .page__content {
   box-sizing: border-box;
+  border: indigo 1px solid;
   padding: 0 100px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .page__content {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page__content {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__content {
+    padding: 0 16px;
+  }
 }

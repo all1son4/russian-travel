@@ -1,0 +1,23 @@
+.page__footer {
+  box-sizing: border-box;
+  padding: 92px 0 24px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .page__footer {
+    padding: 92px 48px 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page__footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__footer {
+    padding: 64px 16px 24px;
+  }
+}

@@ -1,8 +1,11 @@
 .footer {
-  box-sizing: border-box;
-  padding-top: 92px;
-  padding-bottom: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
 }
