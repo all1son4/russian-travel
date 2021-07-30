@@ -26,4 +26,4 @@
 
 *Ссылка на GitHub*
 
-[Кликать вот сюда]()
+[Кликать вот сюда](https://all1son4.github.io/russian-travel/)
