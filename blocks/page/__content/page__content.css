@@ -1,6 +1,5 @@
 .page__content {
   box-sizing: border-box;
-  border: indigo 1px solid;
   padding: 0 100px;
   margin: 0 auto;
 }
