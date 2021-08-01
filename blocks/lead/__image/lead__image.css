@@ -1,6 +1,6 @@
 .lead__image {
   background-image: url("../../../images/lead__image.jpg");
-  background-size: cover  ;
+  background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
   width: 100%;
