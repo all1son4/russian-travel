@@ -9,15 +9,20 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    padding-top: 88px;
-    padding-bottom: 88px;
-    grid-row-gap: 73px;
+    padding: 92px 48px 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    padding: 64px 0;
+    padding: 88px 24px 88px;
+    grid-row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 64px 0 66px;
     grid-row-gap: 50px;
   }
 }
