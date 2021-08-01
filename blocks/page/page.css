@@ -1,4 +1,6 @@
 .page {
+  border: solid 1px greenyellow;
+  margin: 0 auto;
   background: #2A2c2F;
   font-family: "Inter", "sans-serif", "Arial";
   text-rendering: optimizeLegibility;
@@ -7,4 +9,5 @@
   -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
 }

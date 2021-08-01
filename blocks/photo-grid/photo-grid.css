@@ -19,7 +19,6 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     grid-gap: 16px;
-    box-sizing: border-box;
     padding: 0 24px;
   }
 }
@@ -28,7 +27,6 @@
   .photo-grid {
     grid-template-columns: minmax(288px, 1fr);
     grid-gap: 12px;
-    box-sizing: border-box;
     padding: 0 16px;
   }
 }
