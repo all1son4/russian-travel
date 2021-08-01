@@ -17,9 +17,20 @@
   }
 }
 
+@media screen and (max-width: 530px) {
+  .place__paragraph {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .place__paragraph {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    margin: 0 0 25px 0;
     font-size: 16px;
   }
 }
