@@ -11,21 +11,3 @@
   opacity: 0.8;
   transition: 1s;
 }
-
-@media screen and (max-width: 530px) {
-  .place__link {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .place__link {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__link {
-    font-size: 18px;
-  }
-}
