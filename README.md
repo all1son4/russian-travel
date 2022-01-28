@@ -1,31 +1,25 @@
-## Название проекта
+## Project name
 
-Путешествие по России
+Russian Travel
 
-[Проект доступен по ссылке](http://russiantravel.surge.sh)
+[The project is available here](http://russiantravel.surge.sh)
 
-## Главные пункты
-1. Описание
-2. Используемые технологии
-3. Возможности улучшения
-4. Ссылка на GitHub
+## Project Description
 
-## Функционал
+One-page informative landing page describing the breadth and beauty of Russian tourist geography. All navigation to external resources works.
 
-Одностраничный информативный лендинг, описывающий ширину и красоту российской туристической географии. Работает вся навигация на внешние ресурсы.
+## Stack
 
-## Стек
-
-+ Структура БЭМ (Nested)
++ BEM structure (Nested)
 + Flexbox и Grid Layout
-+ Семантические блоки HTML5
-+ Адаптивная верстка через медиазапросы
++ Semantics tegs HTML5
++ Responsive layout through media requests
 
-## Развертывание
+## Deployment
 
-Имеется главная страница index.html и все стиили, импортированные в index.css. Для развертывания проекта не требуется установки библиотек.
+index.html is the main page and all styles are imported into index.css. No libraries need to be installed to deploy the project.
 
-## Можно доработать
+## Future improvements
 
-+ Добавление английской версии страницы.
-+ Расширение проекта на основе навигационных ссылок, представленных в футере.
++ English version of the page
++ Project extension based on footer navigation links
